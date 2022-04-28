@@ -1,0 +1,16 @@
+
+aws:
+  credentials:
+    accessKey:
+    secretKey:
+    region: us-east-1
+  s3:
+    default:
+      bucket-name: s3-upload-default
+      prefix: default
+    avatar:
+      bucket-name: s3-upload-avatar
+      prefix: avatar
+    product:
+      bucket-name: s3-upload-product
+      prefix: product
